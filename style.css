@@ -1,0 +1,84 @@
+body{
+
+    background-color: #e74c3c;
+}
+h1{
+text-align: center;
+font-family: cursive;
+font-size: 75px;
+
+
+}
+#party-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.party {
+    width: 300px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #d8aac4;
+    position: relative;
+}
+
+.party h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.party p {
+    margin-bottom: 5px;
+}
+
+.party .details-button,
+.party .delete-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.party-details {
+    width: 300px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.party-details h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.party-details p {
+    margin-bottom: 5px;
+}
+
+.party-details h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.party-details ul {
+    padding-left: 20px;
+}
+
+.party-details li {
+    margin-bottom: 5px;
+}
+
+.party-details .close-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
